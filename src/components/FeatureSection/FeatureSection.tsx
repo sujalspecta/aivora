@@ -39,9 +39,10 @@ const FeaturesAndBrands: React.FC = () => {
             <div className="col-lg-4 col-md-6 mt-30">
               <div className="xb-feature-left-item">
                 <div
-                  className="xb-feature-item xb-feature-item2 wow fadeInUp"
-                  data-wow-delay="100ms"
-                  data-wow-duration="600ms"
+                  className="xb-feature-item xb-feature-item2 "
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="600"
                 >
                   <div className="xb-item--inner justify-content-end xb-border">
                     <h2 className="xb-item--title text-end">
@@ -54,9 +55,9 @@ const FeaturesAndBrands: React.FC = () => {
                 </div>
 
                 <div
-                  className="xb-feature-item xb-feature-item2 wow fadeInUp"
-                  data-wow-delay="200ms"
-                  data-wow-duration="600ms"
+                  className="xb-feature-item xb-feature-item2 aos fadeInUp"
+                  data-aos-delay="200ms"
+                  data-aos-duration="600ms"
                 >
                   <div className="xb-item--inner justify-content-end xb-border">
                     <h2 className="xb-item--title text-end">
@@ -69,9 +70,10 @@ const FeaturesAndBrands: React.FC = () => {
                 </div>
 
                 <div
-                  className="xb-feature-item xb-feature-item2 wow fadeInUp"
-                  data-wow-delay="300ms"
-                  data-wow-duration="600ms"
+                  className="xb-feature-item xb-feature-item2"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  data-aos-duration="600"
                 >
                   <div className="xb-item--inner justify-content-end xb-border">
                     <h2 className="xb-item--title text-end">
@@ -89,9 +91,10 @@ const FeaturesAndBrands: React.FC = () => {
             <div className="col-lg-4 col-md-6 order-lg-last mt-30">
               <div className="xb-feature-right-item">
                 <div
-                  className="xb-feature-item xb-feature-item2 xb-border wow fadeInUp"
-                  data-wow-delay="100ms"
-                  data-wow-duration="600ms"
+                  className="xb-feature-item xb-feature-item2 xb-border"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="600"
                 >
                   <div className="xb-item--inner xb-border">
                     <span className="xb-item--icon">
@@ -104,9 +107,10 @@ const FeaturesAndBrands: React.FC = () => {
                 </div>
 
                 <div
-                  className="xb-feature-item xb-feature-item2 xb-border wow fadeInUp"
-                  data-wow-delay="200ms"
-                  data-wow-duration="600ms"
+                  className="xb-feature-item xb-feature-item2 xb-border"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="600"
                 >
                   <div className="xb-item--inner xb-border">
                     <span className="xb-item--icon">
@@ -119,9 +123,10 @@ const FeaturesAndBrands: React.FC = () => {
                 </div>
 
                 <div
-                  className="xb-feature-item xb-feature-item2 xb-border wow fadeInUp"
-                  data-wow-delay="300ms"
-                  data-wow-duration="600ms"
+                  className="xb-feature-item xb-feature-item2 xb-border"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  data-aos-duration="600"
                 >
                   <div className="xb-item--inner xb-border">
                     <span className="xb-item--icon">
@@ -138,9 +143,10 @@ const FeaturesAndBrands: React.FC = () => {
             {/* Center Image */}
             <div className="col-lg-4 col-md-12 mt-30">
               <div
-                className="xb-feature-img pos-rel text-center wow zoomIn"
-                data-wow-delay="0ms"
-                data-wow-duration="600ms"
+                className="xb-feature-img pos-rel text-center"
+                data-aos="zoom-in"
+                data-aos-delay="0"
+                data-aos-duration="600"
               >
                 <ul className="xb-feature-shape list-unstyled">
                   <li>

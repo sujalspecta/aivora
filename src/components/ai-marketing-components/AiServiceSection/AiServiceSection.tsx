@@ -118,9 +118,10 @@ const AiServiceSection: React.FC = () => {
             ].map((item, index) => (
               <div
                 key={index}
-                className={`ai-service-img-item wow fadeInLeft`}
-                data-wow-delay={`${index * 150}ms`}
-                data-wow-duration="600ms"
+                className={`ai-service-img-item`}
+                data-aos="fade-left"
+                data-aos-delay={`${index * 150}`}
+                data-aos-duration="600"
               >
                 <div className="img">
                   <img src={item.img} alt={item.title} />

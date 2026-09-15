@@ -39,8 +39,9 @@ const AwardSection: React.FC = () => {
 
           {/* === Award 1 === */}
           <div
-            className="ai-award-item xb-img-reveal-item wow fadeInUp"
-            data-wow-duration="600ms"
+            className="ai-award-item xb-img-reveal-item "
+            data-aos="fade-up"
+            data-aos-duration="600"
             data-img={awardImg01}
             data-fx="1"
           >
@@ -54,9 +55,10 @@ const AwardSection: React.FC = () => {
 
           {/* === Award 2 === */}
           <div
-            className="ai-award-item xb-img-reveal-item wow fadeInUp"
-            data-wow-delay="150ms"
-            data-wow-duration="600ms"
+            className="ai-award-item xb-img-reveal-item "
+            data-aos="fade-up"
+            data-aos-delay="150"
+            data-aos-duration="600"
             data-img={awardImg02}
             data-fx="1"
           >
@@ -70,9 +72,10 @@ const AwardSection: React.FC = () => {
 
           {/* === Award 3 === */}
           <div
-            className="ai-award-item xb-img-reveal-item wow fadeInUp"
-            data-wow-delay="300ms"
-            data-wow-duration="600ms"
+            className="ai-award-item xb-img-reveal-item"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-duration="600"
             data-img={awardImg03}
             data-fx="1"
           >
@@ -86,9 +89,9 @@ const AwardSection: React.FC = () => {
 
           {/* === Award 4 === */}
           <div
-            className="ai-award-item xb-img-reveal-item wow fadeInUp"
-            data-wow-delay="450ms"
-            data-wow-duration="600ms"
+            className="ai-award-item xb-img-reveal-item aos fadeInUp"
+            data-aos-delay="450ms"
+            data-aos-duration="600ms"
             data-img={awardImg04}
             data-fx="1"
           >

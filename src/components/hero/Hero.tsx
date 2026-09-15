@@ -19,15 +19,15 @@ const HeroSection: React.FC = () => {
           {/* ---------- Left Content ---------- */}
           <div className="col-lg-9 col-md-9">
             <div className="hero-content">
-              <h2 className="title scale-animation wow">
+              <h2 className="title scale-animation">
                 Empower your business with smarter AI agency
               </h2>
-              <p className="sub-title scale-animation wow">
+              <p className="sub-title scale-animation">
                 Unlock growth and efficiency with tailored AI solutions. We use
                 automation and data-driven strategies to help you innovate and
                 scale.
               </p>
-              <div className="hero-btn scale-animation wow">
+              <div className="hero-btn scale-animation">
                 <Link className="thm-btn agency-btn" to="/about">
                   <span className="text">Begin Today with us</span>
                   <span className="arrow">
@@ -170,9 +170,10 @@ const HeroSection: React.FC = () => {
           {/* ---------- Right Icon ---------- */}
           <div className="col-lg-3 col-md-3">
             <div
-              className="hero-icon wow zoomIn"
-              data-wow-delay="700ms"
-              data-wow-duration="800ms"
+              className="hero-icon"
+              data-aos="zoom-in"
+              data-aos-delay="700"
+              data-aos-duration="800"
             >
               <img src={heroIcon} alt="Hero icon" />
             </div>
@@ -183,9 +184,10 @@ const HeroSection: React.FC = () => {
         <div className="row mt-55">
           <div className="col-lg-4 col-md-6 mt-30">
             <div
-              className="xb-feature-item wow fadeInUp"
-              data-wow-delay="700ms"
-              data-wow-duration="600ms"
+              className="xb-feature-item"
+              data-aos="fade-up"
+              data-aos-delay="700"
+              data-aos-duration="600"
             >
               <div className="xb-item--inner xb-border">
                 <span className="xb-item--icon">
@@ -204,9 +206,10 @@ const HeroSection: React.FC = () => {
 
           <div className="col-lg-4 col-md-6 mt-30">
             <div
-              className="xb-feature-item wow fadeInUp"
-              data-wow-delay="800ms"
-              data-wow-duration="600ms"
+              className="xb-feature-item"
+              data-aos="fade-up"
+              data-aos-delay="800"
+              data-aos-duration="600"
             >
               <div className="xb-item--inner xb-border">
                 <span className="xb-item--icon">
@@ -225,9 +228,10 @@ const HeroSection: React.FC = () => {
 
           <div className="col-lg-4 col-md-6 mt-30">
             <div
-              className="xb-feature-item wow fadeInUp"
-              data-wow-delay="900ms"
-              data-wow-duration="600ms"
+              className="xb-feature-item"
+              data-aos="fade-up"
+              data-aos-delay="900"
+              data-aos-duration="600"
             >
               <div className="xb-item--inner xb-border">
                 <span className="xb-item--icon">

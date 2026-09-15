@@ -59,16 +59,19 @@ const FAQSection: React.FC = () => {
         {/* Section Title */}
         <div className="sec-title sec-title--two pricing-sec-title text-center mb-50">
           <span
-            className="sub-title mb-25 wow fadeInUp"
-            data-wow-duration="600ms"
+            className="sub-title mb-25"
+             data-aos="fade-up"
+            data-aos-duration="600"
           >
             <img src={subLeftIcon} alt="icon" /> FAQ’s{" "}
             <img src={subRightIcon} alt="icon" />
           </span>
           <h2
-            className="title wow fadeInUp"
-            data-wow-delay="150ms"
-            data-wow-duration="600ms"
+            className="title "
+            
+             data-aos="fade-up"
+            data-aos-delay="150"
+            data-aos-duration="600"
           >
             Have a question Look here
           </h2>
@@ -77,7 +80,7 @@ const FAQSection: React.FC = () => {
         {/* FAQ Accordion */}
         <div className="row">
           <div className="col-lg-12">
-            <div className="xb-faq wow fadeInUp" data-wow-duration="600ms">
+            <div className="xb-faq"  data-aos="fade-up" data-aos-duration="600">
               <ul className="accordion_box clearfix list-unstyled">
                 {faqs.map((faq, index) => (
                   <li

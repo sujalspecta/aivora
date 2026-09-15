@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
             className="footer pos-rel z-1 pt-80 bg_img"
             style={{ backgroundImage: `url(${footerBg})` }}
         >
-            <div className="ac-footer-wrap xb-border mxw-1650 m-0 m-auto wow fadeInUp" data-wow-duration="600ms">
+            <div className="ac-footer-wrap xb-border mxw-1650 m-0 m-auto" data-aos-duration="600"  data-aos="fade-up">
                 <div className="container">
                     <div className="pos-rel z-1">
                         {/* === Footer Nav === */}
@@ -255,7 +255,7 @@ const Footer: React.FC = () => {
             </div>
 
             {/* === Footer Title === */}
-            <div className="xb-footer-bottom-title wow fadeInUp" data-wow-duration="600ms">
+            <div className="xb-footer-bottom-title"  data-aos="fade-up" data-aos-duration="600">
                 <h2 className="title">
                     Aivora AI <span>chatbot</span>
                     <img src={diamondIcon} alt="icon" />

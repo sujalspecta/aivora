@@ -45,7 +45,7 @@ const AboutSection: React.FC = () => {
       </div>
 
       {/* ✅ One single marquee with all 3 images */}
-      <div className="xb-about-img-wrap bg_img wow">
+      <div className="xb-about-img-wrap bg_img" data-aos="fade-up">
         <Marquee speed={40} gradient={false} pauseOnHover={false}>
           {aboutImages.map((img, idx) => (
             <div key={idx} className="xb-about-img-item img-hove-effect">

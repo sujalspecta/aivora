@@ -16,8 +16,8 @@ const ProcessSection: React.FC = () => {
           {/* === Left Side === */}
           <div className="col-lg-5">
             <div
-              className="xb-process-left-container wow fadeInLeft"
-              data-wow-duration="600ms"
+              className="xb-process-left-container" data-aos="fade-left"
+              data-aos-duration="600"
             >
               {/* === Section Title === */}
               <div className="sec-title sec-title--two process-title mb-50">
@@ -223,8 +223,8 @@ const ProcessSection: React.FC = () => {
           {/* === Right Side Images === */}
           <div className="col-lg-7">
             <div
-              className="xb-process-right-container pb-150 mt-none-30 wow fadeInRight"
-              data-wow-duration="600ms"
+              className="xb-process-right-container pb-150 mt-none-30" data-aos="fade-right"
+              data-aos-duration="600"
             >
               <div className="xb-process-item mt-30">
                 <div className="xb-img">

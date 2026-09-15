@@ -38,8 +38,9 @@ const TeamSection: React.FC<TeamSectionProps> = ({ tClass }) => {
                 key={team.id || index}
               >
                 <div
-                  className="wpo-team-item wow fadeInUp"
-                  data-wow-duration="1200ms"
+                  className="wpo-team-item"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
                 >
                   <div className="wpo-team-img-wrap">
                     <div className="wpo-team-img">

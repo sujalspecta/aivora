@@ -71,7 +71,7 @@ const IntegrationComparisonSection: React.FC = () => {
                                 </ul>
 
                                 <div className="integration-btn mt-45">
-                                    <div className="cta-btn mt-40 wow fadeInUp" data-wow-duration="600ms">
+                                    <div className="cta-btn mt-40 " data-aos="fade-up" data-aos-duration="600">
                                         <a className="thm-btn chatbot-btn" href="/contact">
                                             Build your AI chatbot — it’s free
                                             <span className="arrow-icon">

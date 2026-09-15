@@ -42,8 +42,9 @@ const DownloadSection: React.FC = () => {
           </div>
 
           <div
-            className="ai-download-inner ul_li wow fadeInRightBig"
-            data-wow-duration="600ms"
+            className="ai-download-inner ul_li"
+            data-aos="fade-right"
+            data-aos-duration="600"
           >
             <div className="bg-shape">
               <img src={netImg} alt="background" />

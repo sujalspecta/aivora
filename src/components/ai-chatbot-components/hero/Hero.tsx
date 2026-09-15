@@ -22,16 +22,16 @@ const HeroSection: React.FC = () => {
           {/* === Left Column === */}
           <div className="col-lg-6">
             <div className="hero-content hero-content--two">
-              <h2 className="title scale-animation wow">
+              <h2 className="title scale-animation" data-aos="zoom-in">
                 Save your time, chat smarter with AI chatbot
               </h2>
-              <p className="sub-title scale-animation wow">
+              <p className="sub-title scale-animation" data-aos="zoom-in">
                 Automate your repetitive support, and let AI assist you when you
                 need to jump in. Reply faster, stay personal, and automate the
                 rest.
               </p>
 
-              <div className="hero-btn scale-animation wow">
+              <div className="hero-btn scale-animation" data-aos="zoom-in">
                 <Link className="thm-btn chatbot-btn" to="/contact">
                   build your ai chatbot — it’s free
                   <span className="arrow-icon">
@@ -206,13 +206,13 @@ const HeroSection: React.FC = () => {
             <div className="hero-img-container">
               <div
                 className="xb-img"
-                data-wow-delay="0ms"
-                data-wow-duration="800ms"
+                data-aos-delay="0"
+                data-aos-duration="800"
               >
                 <img src={heroImg} alt="AI Chatbot" />
               </div>
 
-              <div className="xb-text-left wow updown">
+              <div className="xb-text-left" data-aos="zoom-in">
                 <div className="img img--1">
                   <img src={textImg1} alt="text-img1" />
                 </div>
@@ -221,11 +221,11 @@ const HeroSection: React.FC = () => {
                 </div>
               </div>
 
-              <div className="xb-glassy-effect-img wow">
+              <div className="xb-glassy-effect-img ">
                 <img src={glassyEffect} alt="Glassy Effect" />
               </div>
 
-              <div className="xb-text-right wow updown">
+              <div className="xb-text-right updown" data-aos="fade-up">
                 <div className="img img--1">
                   <img src={textImg3} alt="text-img3" />
                 </div>

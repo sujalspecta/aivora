@@ -177,7 +177,7 @@ const BlogSection: React.FC = () => {
             <div className="row mt-none-30">
               {/* Large Blog Post */}
               <div className="col-lg-12 mt-30">
-                <div className="xb-blog-item wow fadeInUp" data-wow-delay="0ms" data-wow-duration="600ms">
+                <div className="xb-blog-item" data-aos="fade-up" data-aos-delay="0" data-aos-duration="600">
                   <div className="xb-item--inner img-hove-effect xb-border">
                     <div className="xb-img">
                       {[...Array(4)].map((_, i) => (
@@ -208,7 +208,7 @@ const BlogSection: React.FC = () => {
 
               {/* Small Blog 1 */}
               <div className="col-lg-6 col-md-6 mt-30">
-                <div className="xb-blog-item xb-small-blog-item wow fadeInUp" data-wow-delay="150ms" data-wow-duration="600ms">
+                <div className="xb-blog-item xb-small-blog-item" data-aos="fade-up" data-aos-delay="150" data-aos-duration="600">
                   <div className="xb-item--inner img-hove-effect xb-border">
                     <div className="xb-img">
                       {[...Array(4)].map((_, i) => (
@@ -236,7 +236,7 @@ const BlogSection: React.FC = () => {
 
               {/* Small Blog 2 */}
               <div className="col-lg-6 col-md-6 mt-30">
-                <div className="xb-blog-item xb-small-blog-item wow fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms">
+                <div className="xb-blog-item xb-small-blog-item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
                   <div className="xb-item--inner img-hove-effect xb-border">
                     <div className="xb-img">
                       {[...Array(4)].map((_, i) => (

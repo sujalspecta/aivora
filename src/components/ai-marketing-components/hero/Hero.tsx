@@ -20,8 +20,8 @@ const HeroSection: React.FC = () => {
           <div className="hero-content hero-content--three">
             {/* Top Content */}
             <div
-              className="xb-content-holder wow fadeInUp"
-              data-wow-duration="600ms"
+              className="xb-content-holder"
+              data-aos-duration="600"
             >
               <h2 className="title">
                 AI Marketing{" "}
@@ -38,9 +38,10 @@ const HeroSection: React.FC = () => {
 
             {/* Bottom Content */}
             <div
-              className="hero-content-bottom ul_li_between wow fadeInUp"
-              data-wow-delay="150ms"
-              data-wow-duration="600ms"
+              className="hero-content-bottom ul_li_between"
+              data-aos="fade-up"
+              data-aos-delay="150"
+              data-aos-duration="600"
             >
               <div className="xb-item--holder ul_li">
                 <p className="xb-item--text">

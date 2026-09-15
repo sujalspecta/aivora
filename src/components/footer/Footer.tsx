@@ -119,7 +119,7 @@ const Footer: React.FC = () => {
     >
       <div className="xb-footer-wrap">
         {/* Footer Heading */}
-        <div className="xb-footer-heading wow zoomIn" data-wow-delay="0ms" data-wow-duration="600ms">
+        <div className="xb-footer-heading" data-aos="zoom-in" data-aos-delay="0" data-aos-duration="600">
           <h1 className="title">Aivora</h1>
           <a className="mail" href="mailto:aivora@domain.com">
             <img src={emailIcon} alt="email" /> aivora@domain.com

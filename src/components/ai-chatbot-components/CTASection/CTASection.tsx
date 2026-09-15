@@ -13,17 +13,19 @@ const CTASection: React.FC = () => {
           <div className="col-lg-6">
             <div className="sec-title sec-title--two process-title">
               <span
-                className="sub-title d-block mb-25 wow fadeInUp"
-                data-wow-duration="600ms"
+                className="sub-title d-block mb-25"
+                data-aos="fade-up"
+                data-aos-duration="600"
               >
                 <img src={subLeftIcon} alt="icon" />
                 Save hours with AI chatbot
               </span>
 
               <h2
-                className="title wow fadeInUp"
-                data-wow-delay="150ms"
-                data-wow-duration="600ms"
+                className="title"
+                data-aos="fade-up"
+                 data-aos-delay="150"
+                data-aos-duration="600"
               >
                 Stop wasting time on support
               </h2>
@@ -31,8 +33,10 @@ const CTASection: React.FC = () => {
 
             {/* ✅ CTA Button */}
             <div
-              className="cta-btn mt-40 wow fadeInUp"
-              data-wow-duration="600ms"
+              className="cta-btn mt-40"
+               data-aos="fade-up"
+               data-aos-duration="600"
+         
             >
               <a className="thm-btn chatbot-btn" href="/contact">
                 build your ai chatbot – it’s free
@@ -169,7 +173,6 @@ const CTASection: React.FC = () => {
                     />
                   </svg>
                 </span>
-
                 {/* Background Shape */}
                 <span className="btn-bg">
                   <svg
@@ -195,11 +198,7 @@ const CTASection: React.FC = () => {
                         gradientUnits="userSpaceOnUse"
                       >
                         <stop offset="0" stopColor="#00FF97" />
-                        <stop
-                          offset="1"
-                          stopColor="#00020F"
-                          stopOpacity="0"
-                        />
+                        <stop offset="1" stopColor="#00020F" stopOpacity="0" />
                       </radialGradient>
                     </defs>
                   </svg>

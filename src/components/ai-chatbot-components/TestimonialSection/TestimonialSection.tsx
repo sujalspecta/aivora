@@ -22,16 +22,17 @@ const TestimonialSection: React.FC = () => {
       <div className="container">
         <div className="sec-title sec-title--two tes-sec-title text-center mb-50">
           <span
-            className="sub-title wow fadeInUp mb-20"
-            data-wow-duration="600ms"
+            className="sub-title mb-20" data-aos="fade-up"
+            data-aos-duration="600"
           >
             <img src={subLeftWhiteIcon} alt="icon" /> Testimonials{" "}
             <img src={subRightWhiteIcon} alt="icon" />
           </span>
           <h2
-            className="title wow fadeInUp"
-            data-wow-delay="150ms"
-            data-wow-duration="600ms"
+            className="title"
+            data-aos="fade-up"
+            data-aos-delay="150"
+            data-aos-duration="600"
           >
             Hear from our <img src={animatedGif} alt="shape" /> happy customers
           </h2>

@@ -48,14 +48,15 @@ const PricingSection: React.FC = () => {
       <div className="container">
         {/* === Section Title === */}
         <div className="sec-title sec-title--two pricing-sec-title text-center mb-30">
-          <span className="sub-title wow fadeInUp" data-wow-duration="600ms">
+          <span className="sub-title" data-aos-duration="600"  data-aos="fade-up">
             <img src={iconLeft} alt="icon" /> Pricing Plans{" "}
             <img src={iconRight} alt="icon" />
           </span>
           <h2
-            className="title wow fadeInUp"
-            data-wow-delay="150ms"
-            data-wow-duration="600ms"
+            className="title"
+             data-aos="fade-up"
+            data-aos-delay="150"
+            data-aos-duration="600"
           >
             Simple & <img src={moneyGif} alt="shape" /> flexible pricing
           </h2>
@@ -65,8 +66,9 @@ const PricingSection: React.FC = () => {
           {/* === Free Plan === */}
           <div className="col-lg-5 mt-30">
             <div
-              className="pricing-item xb-border bg_img wow fadeInUp"
-              data-wow-duration="600ms"
+              className="pricing-item xb-border bg_img"
+               data-aos="fade-up"
+              data-aos-duration="600"
               style={{ backgroundImage: `url(${bgItemImg})` }}
             >
               <div className="xb-icon">
@@ -134,8 +136,9 @@ const PricingSection: React.FC = () => {
           {/* === Premium Plan === */}
           <div className="col-lg-7 mt-30">
             <div
-              className="pricing-item xb-border bg_img wow fadeInUp"
-              data-wow-duration="600ms"
+              className="pricing-item xb-border bg_img"
+               data-aos="fade-up"
+              data-aos-duration="600"
               style={{ backgroundImage: `url(${bgItemImg})` }}
             >
               <div className="xb-icon">

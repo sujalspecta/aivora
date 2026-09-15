@@ -166,7 +166,8 @@ const IndustriesMarqueeSection: React.FC = () => {
               </div>
 
               {/* ✅ Center Logo */}
-              <div className="xb-industries-logo wow zoomIn">
+              <div className="xb-industries-logo" data-aos="zoom-in">
+                
                 <img src={indusLogo} alt="logo" />
               </div>
             </div>

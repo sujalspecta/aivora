@@ -2478,7 +2478,7 @@ h6 {
     -webkit-transform: scale(1) rotate(0);
     -ms-transform: scale(1) rotate(0);
     transform: scale(1) rotate(0); } }
-.wow.skewIn.animated {
+.aos.skewIn.animated {
   -webkit-animation-name: xbSkewIn;
   animation-name: xbSkewIn;
   -webkit-animation-fill-mode: both;

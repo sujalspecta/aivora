@@ -119,7 +119,7 @@ const AiFooterSection: React.FC = () => {
 
             {/* === Animated Shape === */}
             <div className="ai-footer-shape">
-              <div className="wow fadeInUp" data-wow-duration="600ms">
+              <div className="" data-aos="fade-up" data-aos-duration="600">
                 <img src={diamondGif} alt="gif" />
               </div>
             </div>
