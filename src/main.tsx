@@ -1,8 +1,6 @@
 import { createRoot } from "react-dom/client";
 import React from "react";
-import ReactDOM from "react-dom/client";
-import reportWebVitals from "./reportWebVitals";
-// import App from "./App";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./main-component/App/App";
 import "swiper/css";
@@ -16,19 +14,7 @@ import "./css/imageRevealHover.css";
 import "./css/custom-fonts.css";
 import "./css/main.css";
 
-// const rootElement = document.getElementById("root") as HTMLElement;
-// const root = ReactDOM.createRoot(rootElement);
-// const root = createRoot(document.getElementById("root"));
 
-// root.render(
-//   <React.StrictMode>
-//       <App />
-//   </React.StrictMode>
-// );
-
-// root.render(
-//    <App />
-// );
 
 const container = document.getElementById("root");
 
