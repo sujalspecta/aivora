@@ -1,4 +1,4 @@
-import { createRoot } from "react-dom/client"; 
+import { createRoot } from "react-dom/client";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
@@ -14,8 +14,7 @@ import "./css/animate.css";
 import "./css/mousecursor.css";
 import "./css/imageRevealHover.css";
 import "./css/custom-fonts.css";
-import "./css/main.css"
-
+import "./css/main.css";
 
 // const rootElement = document.getElementById("root") as HTMLElement;
 // const root = ReactDOM.createRoot(rootElement);
@@ -31,12 +30,17 @@ import "./css/main.css"
 //    <App />
 // );
 
-
-const container = document.getElementById('root');
+const container = document.getElementById("root");
 
 if (!container) {
-  throw new Error("Failed to find the root element. Ensure <div id='root'></div> exists in your index.html");
+  throw new Error(
+    "Failed to find the root element. Ensure <div id='root'></div> exists in your index.html",
+  );
 }
 
 const root = createRoot(container);
-root.render(<App />);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+);
