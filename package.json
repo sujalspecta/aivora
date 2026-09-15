@@ -27,7 +27,7 @@
     "react-toastify": "^11.1.0",
     "simple-react-validator": "^1.6.2",
     "slick-carousel": "^2.0.0",
-    "swiper": "^12.2.0",
+    "swiper": "^14.2.0",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4",
     "wowjs": "^1.1.3"
